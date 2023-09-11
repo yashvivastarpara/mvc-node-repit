@@ -4,7 +4,7 @@ let mvcschema = new mongoose.Schema({
   number: Number,
   email: String,
   password: String,
-  grid: Number,
+  grid: Number,                                                              
 });
 
 const std = mongoose.model("std", mvcschema);

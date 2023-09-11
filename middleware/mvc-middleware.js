@@ -1,11 +1,8 @@
 const checkdata = (req, res, next) => {
-  if (req.body.name) {
+  if (req.body.password) {
     next();
   } else {
-    res.send("missing");
-    // let name = req.body.name ? "" : "name";
-    // console.log(name);
-    // res.send(`missing checkdata ${name}`);
+    res.send(" pass missing");
   }
 };
 
