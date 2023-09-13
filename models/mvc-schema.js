@@ -9,3 +9,4 @@ let mvcschema = new mongoose.Schema({
 
 const std = mongoose.model("std", mvcschema);
 module.exports = std;
+
